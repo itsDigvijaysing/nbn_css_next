@@ -1,6 +1,6 @@
 note :- 
   1) install node and npm
-  2) intall install react
+  2) install react
   3) pull this repo
   4) start working
 
