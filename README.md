@@ -1,3 +1,9 @@
+note :- 
+  1) install node and npm
+  2) intall install react
+  3) pull this repo
+  4) start working
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
