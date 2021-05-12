@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 
 const Navbar = () => {
-    const [active, setActive] = useState(false)
+    const [active, setActive] = useState(true)
     const [comp, setComp] = useState(false);
     const [util, setUtil] = useState(false);
     const [lout, setLout] = useState(false);
