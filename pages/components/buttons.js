@@ -1,7 +1,17 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import styles from '../../styles/Button.module.css'
+import { CodeBlock, dracula } from 'react-code-blocks'
 
 const buttons = () => {
+    const [lang, setLang] = useState("jsx")
+    const sapmle = {
+        html: `        <button className={styles.nbnButtonBlue}>SKY</button>
+        <button className={styles.nbnButtonYellow}>SUN</button>
+        <button className={styles.nbnButtonGreen}>TREE</button>
+        <button className={styles.nbnButtonRed}>BLOOD</button>
+        <button className={styles.nbnButtonPink}>PINK</button>
+            `
+    }
     return (
         <div className="container">
             <h1 className="text-center m-3 fw-bold">NBN BUTTONS</h1>
@@ -15,70 +25,18 @@ const buttons = () => {
                     <button className={styles.nbnButtonPink}>PINK</button>
                 </div>
                 <div className="container m-4">
-                    <span>&lt;</span>
-                    <span>button</span>
-                    <span> type=</span>
-                    <span>"button"</span>
-                    <span> class=</span>
-                    <span>"nbn-btn nbn-btn-sky" </span>
-                    <span>&gt;</span>
-                    <span> SKY </span>
-                    <span>&lt;</span>
-                    <span>/button</span>
-                    <span>&gt;</span>
-                    <br />
-                    <span>&lt;</span>
-                    <span>button</span>
-                    <span> type=</span>
-                    <span>"button"</span>
-                    <span> class=</span>
-                    <span>"nbn-btn nbn-btn-sky" </span>
-                    <span>&gt;</span>
-                    <span> SKY </span>
-                    <span>&lt;</span>
-                    <span>/button</span>
-                    <span>&gt;</span>
-                    <br />
-                    <span>&lt;</span>
-                    <span>button</span>
-                    <span> type=</span>
-                    <span>"button"</span>
-                    <span> class=</span>
-                    <span>"nbn-btn nbn-btn-sky" </span>
-                    <span>&gt;</span>
-                    <span> SKY </span>
-                    <span>&lt;</span>
-                    <span>/button</span>
-                    <span>&gt;</span>
-                    <br />
-                    <span>&lt;</span>
-                    <span>button</span>
-                    <span> type=</span>
-                    <span>"button"</span>
-                    <span> class=</span>
-                    <span>"nbn-btn nbn-btn-sky" </span>
-                    <span>&gt;</span>
-                    <span> SKY </span>
-                    <span>&lt;</span>
-                    <span>/button</span>
-                    <span>&gt;</span>
-                    <br />
-                    <span>&lt;</span>
-                    <span>button</span>
-                    <span> type=</span>
-                    <span>"button"</span>
-                    <span> class=</span>
-                    <span>"nbn-btn nbn-btn-sky" </span>
-                    <span>&gt;</span>
-                    <span> SKY </span>
-                    <span>&lt;</span>
-                    <span>/button</span>
-                    <span>&gt;</span>
-                    <br />
+                    <CodeBlock
+                        CodeBlock
+                        language={lang}
+                        text={sapmle.html}
+                        showLineNumbers={false}
+                        theme={dracula}
+                        wrapLines={true}
+                    />
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
-
+true
 export default buttons

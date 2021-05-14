@@ -2,13 +2,23 @@
 // className={styles.container}
 
 import Link from 'next/link'
+import { CodeBlock, dracula } from 'react-code-blocks'
 
 export default function Home() {
 
 
   return (
     <>
-      <h2>welcome to nbn css</h2>
+      <div>
+        <CodeBlock
+          language="html"
+          text="hello monster "
+          showLineNumbers="5"
+          theme={dracula}
+          wrapLines={true}
+          codeBlock
+        />
+      </div>
     </>
   )
 }
