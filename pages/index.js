@@ -10,14 +10,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <CodeBlock
-          language="html"
-          text="hello monster "
-          showLineNumbers="5"
-          theme={dracula}
-          wrapLines={true}
-          codeBlock
-        />
+        <h2>home page</h2>
       </div>
     </>
   )

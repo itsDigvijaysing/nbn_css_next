@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import styles from '../../styles/Button.module.css'
-import { CodeBlock, dracula } from 'react-code-blocks'
+import { CopyBlock, dracula } from "react-code-blocks";
 
 const buttons = () => {
-    const [lang, setLang] = useState("jsx")
+    const [lang, setLang] = useState("java")
     const sapmle = {
         html: `        <button className={styles.nbnButtonBlue}>SKY</button>
         <button className={styles.nbnButtonYellow}>SUN</button>
@@ -25,14 +25,15 @@ const buttons = () => {
                     <button className={styles.nbnButtonPink}>PINK</button>
                 </div>
                 <div className="container m-4">
-                    <CodeBlock
+                    <CopyBlock
                         CodeBlock
                         language={lang}
                         text={sapmle.html}
                         showLineNumbers={false}
                         theme={dracula}
-                        wrapLines={true}
+                        wrapLines={false}
                     />
+                    <br />
                 </div>
             </div>
         </div >
