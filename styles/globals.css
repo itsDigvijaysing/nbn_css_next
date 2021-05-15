@@ -11,12 +11,8 @@ html, body {
   font-family: 'popins', sans-serif;
 }
 
-h2 {
-  text-align: center;
-}
-
 .btn {
-  position: absolute;
+  position: fixed;
   top: 15px;
   left: 10px;
   height: 45px;

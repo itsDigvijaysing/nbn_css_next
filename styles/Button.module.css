@@ -1,4 +1,5 @@
-@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
+/* simple button css */
+
 .nbnButtonBlue {
     padding: 10px;
     border: 1px solid blueviolet;
@@ -131,143 +132,163 @@
 
 /* linear color button css  */
 
-.linear-button-blue {
+.NBNLinearButtonBlue {
     padding: 10px;
     border: 1px solid blueviolet;
     background-image: linear-gradient(to right, rgb(67, 4, 126), rgb(148, 85, 206), rgb(182, 167, 196));
     border-radius: 5px;
     color: white;
+    width: 150px;
+    margin: 0 10px;
 }
 
-.linear-button-yellow {
+.NBNLinearButtonYellow {
     padding: 10px;
     border: 1px solid yellow;
     border-radius: 5px;
     background-image: linear-gradient(to right, rgb(169, 187, 10), rgb(189, 211, 65), rgb(198, 214, 122));
     color: white;
+    width: 150px;
+    margin: 0 10px;
 }
 
-.linear-button-green {
+.NBNLinearButtonGreen {
     padding: 10px;
     border: 1px solid green;
     border-radius: 5px;
     background-image: linear-gradient(to right, rgb(12, 126, 27), rgb(47, 175, 30), rgb(114, 214, 83));
     color: white;
+    width: 150px;
+    margin: 0 10px;
 }
 
-.linear-button-red {
+.NBNLinearButtonRed {
     padding: 10px;
     border: 1px solid red;
     border-radius: 5px;
     background-image: linear-gradient(to right, rgb(136, 22, 14), rgb(187, 62, 40), rgb(220, 98, 98));
     color: white;
+    width: 150px;
+    margin: 0 10px;
 }
 
-.linear-button-pink {
+.NBNLinearButtonPink {
     padding: 10px;
     border: 1px solid palevioletred;
     border-radius: 5px;
     background-image: linear-gradient(to right, rgb(124, 9, 99), rgb(158, 33, 131), rgb(189, 98, 174));
     color: white;
+    width: 150px;
+    margin: 0 10px;
 }
 
 /* trans-bgcolor-style-css */
 
-.trans-button-blue {
+.NBNTextButtontBlue {
     padding: 10px;
     background-color: transparent;
     color: blueviolet;
     border: none;
+    width: 150px;
+    margin: 0 10px;
 }
 
-.trans-button-blue:active {
+.NBNTextButtontBlue:active {
     background-color: blueviolet;
     color: blueviolet;
     color: #fff;
     border: none;
 }
 
-.trans-button-blue:hover {
+.NBNTextButtontBlue:hover {
     background-color: rgb(237, 232, 242);
     color: blueviolet;
     border: none;
 }
 
-.trans-button-yellow {
+.NBNTextButtonYellow {
     padding: 10px;
     background-color: transparent;
     color: yellow;
     border: none;
+    width: 150px;
+    margin: 0 10px;
 }
 
-.trans-button-yellow:active {
+.NBNTextButtonYellow:active {
     background-color: yellow;
     color: yellow;
     color: #fff;
     border: none;
 }
 
-.trans-button-yellow:hover {
+.NBNTextButtonYellow:hover {
     background-color: rgb(241, 242, 232);
     color: yellow;
     border: none;
 }
 
-.trans-button-green {
+.NBNTextButtonGreen {
     padding: 10px;
     background-color: transparent;
     color: green;
     border: none;
+    width: 150px;
+    margin: 0 10px;
 }
 
-.trans-button-green:active {
+.NBNTextButtonGreen:active {
     background-color: green;
     color: green;
     color: #fff;
     border: none;
 }
 
-.trans-button-green:hover {
+.NBNTextButtonGreen:hover {
     background-color: rgb(237, 232, 242);
     color: green;
     border: none;
 }
 
-.trans-button-red {
+.NBNTextButtonRed {
     padding: 10px;
     background-color: transparent;
     color: red;
     border: none;
+    width: 150px;
+    margin: 0 10px;
 }
 
-.trans-button-red:active {
+.NBNTextButtonRed:active {
     background-color: red;
     color: red;
     color: #fff;
     border: none;
 }
 
-.trans-button-red:hover {
+.NBNTextButtonRed:hover {
     background-color: rgb(237, 232, 242);
     color: red;
     border: none;
 }
 
-.trans-button-pink {
+.NBNTextButtonRedPink {
     padding: 10px;
     background-color: transparent;
     color: pink;
     border: none;
+    width: 150px;
+    margin: 0 10px;
 }
 
-.trans-button-pink:active {
+.NBNTextButtonRedPink:active {
     background-color: pink;
     color: pink;
     color: #fff;
     border: none;
 }
 
-.trans-button-pink:hover {
+.NBNTextButtonRedPink:hover {
     background-color: rgb(237, 232, 242);
     color: pink;
     border: none;
@@ -275,42 +296,56 @@
 
 /* simple button css */
 
-.simple-button-blue {
+.NBNSimpleButtonBlue {
     background-color: blueviolet;
     color: #fff;
     border-radius: 10px;
     padding: 10px;
     border: none;
+    width: 150px;
+    margin: 0 10px;
 }
 
-.simple-button-yellow {
+.NBNSimpleButtonYellow {
     background-color: yellow;
     color: #fff;
     border-radius: 10px;
     padding: 10px;
     border: none;
+    width: 150px;
+    margin: 0 10px;
 }
 
-.simple-button-green {
+.NBNSimpleButtonGreen {
     background-color: green;
     color: #fff;
     border-radius: 10px;
     padding: 10px;
     border: none;
+    width: 150px;
+    margin: 0 10px;
 }
 
-.simple-button-red {
+.NBNSimpleButtonRed {
     background-color: red;
     color: #fff;
     border-radius: 10px;
     padding: 10px;
     border: none;
+    width: 150px;
+    margin: 0 10px;
 }
 
-.simple-button-pink {
+.NBNSimpleButtonPink {
     background-color: pink;
     color: #fff;
     border-radius: 10px;
     padding: 10px;
     border: none;
+    width: 150px;
+    margin: 0 10px;
 }
+
+/* ------------------------------------------------------- */
+
+/* outline button css */
