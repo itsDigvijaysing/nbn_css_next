@@ -9,15 +9,10 @@ html, body {
   margin: 0;
   box-sizing: border-box;
   font-family: 'popins', sans-serif;
-  user-select: none;
-}
-
-h2 {
-  text-align: center;
 }
 
 .btn {
-  position: absolute;
+  position: fixed;
   top: 15px;
   left: 10px;
   height: 45px;

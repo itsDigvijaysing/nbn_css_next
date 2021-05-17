@@ -1,0 +1,351 @@
+/* simple button css */
+
+.nbnButtonBlue {
+    padding: 10px;
+    border: 1px solid blueviolet;
+    background-color: transparent;
+    color: blueviolet;
+    border-radius: 5px;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.nbnButtonBlue:hover {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.nbnButtonBlue:active {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.nbnButtonBlue:focus {
+    border-color: #fff;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.nbnButtonYellow {
+    padding: 10px;
+    border: 1px solid yellow;
+    background-color: transparent;
+    color: yellow;
+    border-radius: 5px;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.nbnButtonYellow:hover {
+    background-color: yellow;
+    color: #fff;
+}
+
+.nbnButtonYellow:active {
+    background-color: yellow;
+    color: #fff;
+}
+
+.nbnButtonYellow:focus {
+    border-color: #fff;
+    background-color: yellow;
+    color: #fff;
+}
+
+.nbnButtonGreen {
+    padding: 10px;
+    border: 1px solid green;
+    background-color: transparent;
+    color: green;
+    border-radius: 5px;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.nbnButtonGreen:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.nbnButtonGreen:active {
+    background-color: green;
+    color: #fff;
+}
+
+.nbnButtonGreen:focus {
+    border-color: #fff;
+    background-color: green;
+    color: #fff;
+}
+
+.nbnButtonRed {
+    padding: 10px;
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+    border-radius: 5px;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.nbnButtonRed:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.nbnButtonRed:active {
+    background-color: red;
+    color: #fff;
+}
+
+.nbnButtonRed:focus {
+    border-color: #fff;
+    background-color: red;
+    color: #fff;
+}
+
+.nbnButtonPink {
+    padding: 10px;
+    border: 1px solid pink;
+    background-color: transparent;
+    color: pink;
+    border-radius: 5px;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.nbnButtonPink:hover {
+    background-color: pink;
+    color: #fff;
+}
+
+.nbnButtonPink:active {
+    background-color: pink;
+    color: #fff;
+}
+
+.nbnButtonPink:focus {
+    border-color: #fff;
+    background-color: pink;
+    color: #fff;
+}
+
+/* linear color button css  */
+
+.NBNLinearButtonBlue {
+    padding: 10px;
+    border: 1px solid blueviolet;
+    background-image: linear-gradient(to right, rgb(67, 4, 126), rgb(148, 85, 206), rgb(182, 167, 196));
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.NBNLinearButtonYellow {
+    padding: 10px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(169, 187, 10), rgb(189, 211, 65), rgb(198, 214, 122));
+    color: white;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.NBNLinearButtonGreen {
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(12, 126, 27), rgb(47, 175, 30), rgb(114, 214, 83));
+    color: white;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.NBNLinearButtonRed {
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(136, 22, 14), rgb(187, 62, 40), rgb(220, 98, 98));
+    color: white;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.NBNLinearButtonPink {
+    padding: 10px;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(124, 9, 99), rgb(158, 33, 131), rgb(189, 98, 174));
+    color: white;
+    width: 150px;
+    margin: 0 10px;
+}
+
+/* trans-bgcolor-style-css */
+
+.NBNTextButtontBlue {
+    padding: 10px;
+    background-color: transparent;
+    color: blueviolet;
+    border: none;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.NBNTextButtontBlue:active {
+    background-color: blueviolet;
+    color: blueviolet;
+    color: #fff;
+    border: none;
+}
+
+.NBNTextButtontBlue:hover {
+    background-color: rgb(237, 232, 242);
+    color: blueviolet;
+    border: none;
+}
+
+.NBNTextButtonYellow {
+    padding: 10px;
+    background-color: transparent;
+    color: yellow;
+    border: none;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.NBNTextButtonYellow:active {
+    background-color: yellow;
+    color: yellow;
+    color: #fff;
+    border: none;
+}
+
+.NBNTextButtonYellow:hover {
+    background-color: rgb(241, 242, 232);
+    color: yellow;
+    border: none;
+}
+
+.NBNTextButtonGreen {
+    padding: 10px;
+    background-color: transparent;
+    color: green;
+    border: none;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.NBNTextButtonGreen:active {
+    background-color: green;
+    color: green;
+    color: #fff;
+    border: none;
+}
+
+.NBNTextButtonGreen:hover {
+    background-color: rgb(237, 232, 242);
+    color: green;
+    border: none;
+}
+
+.NBNTextButtonRed {
+    padding: 10px;
+    background-color: transparent;
+    color: red;
+    border: none;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.NBNTextButtonRed:active {
+    background-color: red;
+    color: red;
+    color: #fff;
+    border: none;
+}
+
+.NBNTextButtonRed:hover {
+    background-color: rgb(237, 232, 242);
+    color: red;
+    border: none;
+}
+
+.NBNTextButtonRedPink {
+    padding: 10px;
+    background-color: transparent;
+    color: pink;
+    border: none;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.NBNTextButtonRedPink:active {
+    background-color: pink;
+    color: pink;
+    color: #fff;
+    border: none;
+}
+
+.NBNTextButtonRedPink:hover {
+    background-color: rgb(237, 232, 242);
+    color: pink;
+    border: none;
+}
+
+/* simple button css */
+
+.NBNSimpleButtonBlue {
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.NBNSimpleButtonYellow {
+    background-color: yellow;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.NBNSimpleButtonGreen {
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.NBNSimpleButtonRed {
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.NBNSimpleButtonPink {
+    background-color: pink;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    margin: 0 10px;
+}
+
+/* ------------------------------------------------------- */
+
+/* outline button css */
