@@ -1,0 +1,154 @@
+.text_main {
+    text-align: center;
+}
+
+.container {
+    margin: 0 50px;
+    padding: 10px;
+}
+
+.code {
+    margin: 0 50px;
+    /* border: 2px solid black; */
+}
+
+.heading {
+    margin: 10px 50px;
+}
+
+.modal_btn {
+    background: goldenrod;
+    padding: 1em 2em;
+    color: white;
+    border: 0;
+    margin: 20px 0;
+}
+
+.modal_btn:hover {
+    background: #3876ac;
+}
+
+.simple_modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.simple_modal_click {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.simple_modal_content {
+    margin: 10% auto;
+    width: 70%;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 6px 25px rgba(171, 169, 169, 1);
+}
+
+.simple_modal_content_animate {
+    margin: 10% auto;
+    width: 70%;
+    animation-name: modalanime;
+    animation-duration: 3s;
+    border: 1px solid black;
+    background-color: #f1f1f1;
+}
+
+.modal_header {
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.modal_body {
+    padding: 10px 20px;
+}
+
+.modal_footer {
+    padding: 10px 0;
+}
+
+.nbn_btn {
+    padding: 5px;
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+    border-radius: 5px;
+    width: 100px;
+    margin: 10px 10px;
+}
+
+.nbn_btn:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.nbn_btn:active {
+    background-color: red;
+    color: #fff;
+}
+
+.nbn_btn:focus {
+    border-color: #fff;
+    background-color: red;
+    color: #fff;
+}
+
+.modal_closebtn {
+    color: black;
+    float: right;
+    font-size: 30px;
+    border: 0;
+    background: none;
+}
+
+.modal_closebtn:hover {
+    color: red;
+    float: right;
+    font-size: 30px;
+    border: 0;
+    background: #fff;
+    border-radius: 100%;
+}
+
+@keyframes modalanime {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        margin: 0 10px;
+        padding: 10px;
+    }
+    .code {
+        margin: 0;
+        /* border: 2px solid black; */
+    }
+    .simple_modal_content {
+        width: 100%;
+    }
+    .simple_modal_content_animate {
+        width: 100%;
+    }
+}

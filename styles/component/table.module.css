@@ -1,0 +1,39 @@
+.text_main {
+    text-align: center;
+}
+
+.container {
+    background-color: black;
+    margin: 0 50px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.code {
+    margin: 0 50px;
+    /* border: 2px solid black; */
+}
+
+.heading {
+    margin: 10px 50px;
+}
+
+.NBNTable {
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.NBNTableBody {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.NBNTableTitle {
+    font-size: 30px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}

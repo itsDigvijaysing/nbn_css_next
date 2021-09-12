@@ -1,0 +1,112 @@
+.text_main {
+    text-align: center;
+}
+
+.container {
+    margin: 0 50px;
+    padding: 10px;
+}
+
+.code {
+    margin: 0 50px;
+    /* border: 2px solid black; */
+}
+
+.heading {
+    margin: 10px 50px;
+}
+
+.NBN_card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 500px;
+}
+
+.NBN_card_title {
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.NBN_card_body {
+    margin: 5px;
+    padding: 5px;
+}
+
+.NBN_card_text {}
+
+.NBN_card_btn {
+    border: none;
+    background: none;
+    background-color: rgb(221, 207, 79);
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 10%;
+}
+
+.NBN_card_image {
+    width: 100%;
+    height: 300px;
+}
+
+.NBN_flip_front, .NBN_flip_back {
+    position: absolute;
+    /* width: 100%;
+    height: 100%; */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.NBN_flip_front {
+    /* background-color: #bbb; */
+    /* color: black; */
+}
+
+.NBN_flip_back {
+    transform: rotateY(180deg);
+}
+
+.NBN_flip_card:hover .NBN_flip_inner {
+    transform: rotateY(180deg);
+}
+
+.NBN_flip_card {
+    background-color: transparent;
+    width: 500px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.NBN_flip_inner {
+    position: relative;
+    /* width: 100%;
+    height: 100%; */
+    /* text-align: center; */
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        margin: 0 10px;
+        padding: 10px;
+    }
+    .code {
+        margin: 0 10px;
+        /* border: 2px solid black; */
+    }
+    .NBN_card {
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid black;
+        width: 100%;
+    }
+    .NBN_flip_card {
+        background-color: transparent;
+        width: 100%;
+        height: 300px;
+        perspective: 1000px;
+    }
+}

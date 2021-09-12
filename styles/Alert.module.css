@@ -1,0 +1,87 @@
+.text_main {
+    text-align: center;
+}
+
+.container {
+    margin: 0 50px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.code {
+    margin: 0 50px;
+    /* border: 2px solid black; */
+}
+
+.heading {
+    margin: 10px 50px;
+}
+
+.closebtn {
+    background: none;
+    border: none;
+    font-size: 25px;
+    float: right;
+    /* margin: 20px auto; */
+}
+
+.s_alert_danger {
+    background-color: red;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.s_alert_warning {
+    background-color: rgb(189, 219, 56);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.s_alert_success {
+    background-color: rgb(36, 223, 29);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.s_alert_primary {
+    background-color: rgb(36, 22, 224);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.s_alert_secondary {
+    background-color: rgb(87, 81, 81);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.s_alert_info {
+    background-color: rgb(60, 185, 207);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.s_alert_light {
+    background-color: rgb(235, 242, 243);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        margin: 0 10px;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    .code {
+        margin: 0 10px;
+        /* border: 2px solid black; */
+    }
+}

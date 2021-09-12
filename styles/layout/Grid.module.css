@@ -1,0 +1,239 @@
+.text_main {
+    text-align: center;
+}
+
+.container {
+    margin: 0 50px;
+    padding: 10px;
+}
+
+.code {
+    margin: 0 50px;
+    /* border: 2px solid black; */
+}
+
+.heading {
+    margin: 10px 50px;
+}
+
+.nbn_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nbn_text {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.nbn_col_1 {
+    width: 8.33% !important;
+    border: 1px solid black;
+    flex: 0 0 auto;
+}
+
+.nbn_col_2 {
+    width: 16.66% !important;
+    border: 1px solid black;
+    flex: 0 0 auto;
+}
+
+.nbn_col_3 {
+    width: 25% !important;
+    border: 1px solid black;
+    flex: 0 0 auto;
+}
+
+.nbn_col_4 {
+    width: 33.33% !important;
+    border: 1px solid black;
+    flex: 0 0 auto;
+}
+
+.nbn_col_5 {
+    width: 41.67% !important;
+    border: 1px solid black;
+    flex: 0 0 auto;
+}
+
+.nbn_col_6 {
+    width: 50% !important;
+    border: 1px solid black;
+    flex: 0 0 auto;
+}
+
+.nbn_col_7 {
+    width: 58.33% !important;
+    border: 1px solid black;
+    flex: 0 0 auto;
+}
+
+.nbn_col_8 {
+    width: 66.66% !important;
+    border: 1px solid black;
+    flex: 0 0 auto;
+}
+
+.nbn_col_9 {
+    width: 75% !important;
+    border: 1px solid black;
+    flex: 0 0 auto;
+}
+
+.nbn_col_10 {
+    width: 83.34% !important;
+    border: 1px solid black;
+    flex: 0 0 auto;
+}
+
+.nbn_col_11 {
+    width: 91.67% !important;
+    border: 1px solid black;
+    flex: 0 0 auto;
+}
+
+.nbn_col_12 {
+    width: 100% !important;
+    border: 1px solid black;
+    flex: 0 0 auto;
+}
+
+@media only screen and (min-width: 100px) {
+    .container {
+        margin: 0 5px;
+        padding: 5px;
+    }
+    .nbn_col_s {
+        flex: 1 0 0%;
+    }
+    .nbn_col_s_1 {
+        width: 8.33% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_s_2 {
+        width: 16.66% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_s_3 {
+        width: 25% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_s_4 {
+        width: 33.33% !important;
+        background: rgb(236, 231, 231);
+        flex: 0 0 auto;
+    }
+    .nbn_col_s_5 {
+        width: 41.67% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_s_6 {
+        width: 50% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_s_7 {
+        width: 58.33% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_s_8 {
+        width: 66.66% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_s_9 {
+        width: 75% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_s_10 {
+        width: 83.34% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_s_11 {
+        width: 91.67% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_s_12 {
+        width: 100% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        margin: 0 5px;
+        padding: 5px;
+    }
+    .nbn_col_m {
+        flex: 1 0 0%;
+    }
+    .nbn_col_m_1 {
+        width: 8.33% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_m_2 {
+        width: 16.66% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_m_3 {
+        width: 25% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_m_4 {
+        width: 33.33% !important;
+        background: rgb(236, 231, 231);
+        flex: 0 0 auto;
+    }
+    .nbn_col_m_5 {
+        width: 41.67% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_m_6 {
+        width: 50% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_m_7 {
+        width: 58.33% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_m_8 {
+        width: 66.66% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_m_9 {
+        width: 75% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_m_10 {
+        width: 83.34% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_m_11 {
+        width: 91.67% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+    .nbn_col_m_12 {
+        width: 100% !important;
+        border: 1px solid black;
+        flex: 0 0 auto;
+    }
+}

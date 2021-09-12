@@ -1,16 +1,14 @@
 import React from 'react'
+import styles from '../styles/Footer.module.css'
 
 const Footers = () => {
     return (
         <>
-            <footer className="page-footer">
 
-                <div className="container">
-                    © 2014 Copyright Text
-            <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
-                </div>
-
+            <footer className={styles.footer}>
+                <div className={styles.footer_head}>NBN Css © 2021</div>
             </footer>
+
         </>
     )
 }

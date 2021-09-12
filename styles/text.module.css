@@ -1,0 +1,102 @@
+.text_main {
+    text-align: center;
+}
+
+.container {
+    margin: 0 50px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.code {
+    margin: 0 50px;
+    /* border: 2px solid black; */
+}
+
+.heading {
+    margin: 10px 50px;
+}
+
+.ctext1 {
+    text-align: center;
+    color: red;
+}
+
+.ctext2 {
+    text-align: center;
+    color: rgb(217, 255, 0);
+}
+
+.ctext3 {
+    text-align: center;
+    color: rgb(51, 255, 0);
+}
+
+.ctext4 {
+    text-align: center;
+    color: rgb(0, 255, 255);
+}
+
+.ctext5 {
+    text-align: center;
+    color: rgb(47, 0, 255);
+}
+
+.ctext6 {
+    text-align: center;
+    color: rgb(12, 7, 7);
+}
+
+.ctext7 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* background-color: black; */
+}
+
+.atext1 {
+    text-align: left;
+}
+
+.atext2 {
+    text-align: center;
+}
+
+.atext3 {
+    text-align: right;
+}
+
+.ttext1 {
+    text-transform: uppercase;
+}
+
+.ttext2 {
+    text-transform: lowercase;
+}
+
+.ttext3 {
+    text-transform: capitalize;
+}
+
+.stext1 {
+    font-size: 60px;
+}
+
+.stext2 {
+    font-size: 50px;
+}
+
+.stext3 {
+    font-size: 40px;
+}
+
+.stext4 {
+    font-size: 30px;
+}
+
+.stext5 {
+    font-size: 20px;
+}
+
+.stext6 {
+    font-size: 10px;
+}
