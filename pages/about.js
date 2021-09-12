@@ -80,15 +80,15 @@ const about = () => {
                             Digvijaysing Rajput
                         </div>
                         <div className={styles.image}>
-                            <img src="/user.jpg" alt="" height="150" width="100%" />
+                            <img src="/digvijaysing.jpg" alt="" height="150" width="100%" />
                         </div>
                         <div className={styles.social_link}>
                             <div className={styles.linkdin}>
-                                <a className={styles.linkdin_a} href="#" target="_blank"><i className="fab fa-linkedin"></i></a>
+                                <a className={styles.linkdin_a} href="https://www.linkedin.com/in/digvijaysing/" target="_blank"><i className="fab fa-linkedin"></i></a>
 
                             </div>
                             <div className={styles.github}>
-                                <a className={styles.github_a} href="#" target="_blank"><i className="fab fa-github"></i></a>
+                                <a className={styles.github_a} href="https://github.com/RoyalTechie" target="_blank"><i className="fab fa-github"></i></a>
                             </div>
                         </div>
                     </div>

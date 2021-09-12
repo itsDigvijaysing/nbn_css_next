@@ -79,7 +79,7 @@ const buttons = () => {
 
                 <h3 className="fw-bold">Linear Button :- </h3>
                 <div className="container border border-dark p-3">
-                    <button onClick={() => alert("hello monster")} className={styles.NBNLinearButtonBlue}>SKY</button>
+                    <button onClick={() => alert("hello Sir")} className={styles.NBNLinearButtonBlue}>SKY</button>
                     <button className={styles.NBNLinearButtonYellow}>SUN</button>
                     <button className={styles.NBNLinearButtonGreen}>TREE</button>
                     <button className={styles.NBNLinearButtonRed}>BLOOD</button>

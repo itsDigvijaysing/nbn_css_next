@@ -13,11 +13,11 @@ const radio = () => {
                 <h4 className={styles.heading}>1) Radio Color</h4>
                 <div className={styles.nbn_check}>
                     <input type="radio" className={styles.nbn_chech_radio} />
-                    <label className={styles.nbn_chech_label}>Monster</label>
+                    <label className={styles.nbn_chech_label}>Sir</label>
                 </div>
                 <div>
                     <input type="radio" />
-                    <label>Monster</label>
+                    <label>Sir</label>
                 </div>
             </div>
         </>
