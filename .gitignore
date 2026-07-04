@@ -4,6 +4,9 @@ package-lock.json
 /comp
 # dependencies
 /node_modules
+.env
+.env.*
+!.env.example
 /.pnp
 .pnp.js
 
