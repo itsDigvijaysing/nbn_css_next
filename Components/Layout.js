@@ -9,7 +9,7 @@ import Image from 'next/image'
 const Layout = ({ children }) => {
     useEffect(() => {
         Prism.highlightAll();
-    }, []);
+    }, [children]);
     return (
         <>
             <Head>

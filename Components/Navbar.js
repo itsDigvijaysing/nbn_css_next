@@ -34,7 +34,7 @@ const Navbar = () => {
                     <li className={styles.nav_ul_li}><a className={styles.nav_ul_li_a} onClick={loutchange}>Layout
                         <span className={styles.nav_ul_li_a_span}></span>
                     </a>
-                        <ul className={styles.nav_ul_ul} className={lout ? styles.layout_show : styles.layout_show_click}>
+                        <ul className={`${styles.nav_ul_ul} ${lout ? styles.layout_show : styles.layout_show_click}`}>
                             <li className={styles.nav_ul_ul_li}><Link href="/conatiners"><a className={styles.nav_ul_ul_li_a}>Continers</a></Link></li>
                             <li className={styles.nav_ul_ul_li}><Link href="/layout/grid"><a className={styles.nav_ul_ul_li_a}>Grid</a></Link></li>
                             <li className={styles.nav_ul_ul_li}><Link href="/columns"><a className={styles.nav_ul_ul_li_a}>Columns</a></Link></li>
@@ -43,7 +43,7 @@ const Navbar = () => {
                     <li className={styles.nav_ul_li}><a className={styles.nav_ul_li_a} onClick={formchange}>Forms
                         <span className={styles.nav_ul_li_a_span}></span>
                     </a>
-                        <ul className={styles.nav_ul_ul} className={form ? styles.form_show : styles.form_show_click}>
+                        <ul className={`${styles.nav_ul_ul} ${form ? styles.form_show : styles.form_show_click}`}>
                             <li className={styles.nav_ul_ul_li}><Link href="/form/input"><a className={styles.nav_ul_ul_li_a}>Input</a></Link></li>
                             <li className={styles.nav_ul_ul_li}><Link href="/form/textarea"><a className={styles.nav_ul_ul_li_a}>Textarea</a></Link></li>
                             <li className={styles.nav_ul_ul_li}><Link href="/form/select"><a className={styles.nav_ul_ul_li_a}>Select</a></Link></li>
@@ -55,7 +55,7 @@ const Navbar = () => {
                     <li className={styles.nav_ul_li}><a className={styles.nav_ul_li_a} onClick={compchange}>Components
                         <span className={styles.nav_ul_li_a_span}></span>
                     </a>
-                        <ul className={styles.nav_ul_ul} className={comp ? styles.component_show : styles.component_show_click}>
+                        <ul className={`${styles.nav_ul_ul} ${comp ? styles.component_show : styles.component_show_click}`}>
                             <li className={styles.nav_ul_ul_li}><Link href="/components/alerts"><a className={styles.nav_ul_ul_li_a}>Alert</a></Link></li>
                             <li className={styles.nav_ul_ul_li}><Link href="/components/buttons"><a className={styles.nav_ul_ul_li_a}>Buttons</a></Link></li>
                             <li className={styles.nav_ul_ul_li}><Link href="/components/card"><a className={styles.nav_ul_ul_li_a}>Card</a></Link></li>
@@ -68,7 +68,7 @@ const Navbar = () => {
                     <li className={styles.nav_ul_li}><a className={styles.nav_ul_li_a} onClick={utilchange}>Utilities
                         <span className={styles.nav_ul_li_a_span}></span>
                     </a>
-                        <ul className={styles.nav_ul_ul} className={util ? styles.utility_show : styles.utility_show_click}>
+                        <ul className={`${styles.nav_ul_ul} ${util ? styles.utility_show : styles.utility_show_click}`}>
                             <li className={styles.nav_ul_ul_li}><Link href="/utilities/border"><a className={styles.nav_ul_ul_li_a}>Borders</a></Link></li>
                             <li className={styles.nav_ul_ul_li}><Link href="/utilities/colors"><a className={styles.nav_ul_ul_li_a}>Colors</a></Link></li>
                             <li className={styles.nav_ul_ul_li}><Link href="/utilities/background"><a className={styles.nav_ul_ul_li_a}>Backgrounds</a></Link></li>
